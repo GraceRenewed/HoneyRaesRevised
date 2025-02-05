@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "1RkE773rkHPZGpNruthVx12ZTXVmuE8oTCeVvLL1YtQ=",
+  "Source": "HoneyRaesAPI",
+  "BasePath": "_content/HoneyRaesAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
