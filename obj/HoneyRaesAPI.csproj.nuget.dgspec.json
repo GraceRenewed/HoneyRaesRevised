@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cviea\\workspace\\csharp\\HoneyRaesAPI\\HoneyRaesAPI.csproj": {}
+    "C:\\Users\\cviea\\workspace\\csharp\\HoneyRaesRevised\\HoneyRaesAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cviea\\workspace\\csharp\\HoneyRaesAPI\\HoneyRaesAPI.csproj": {
+    "C:\\Users\\cviea\\workspace\\csharp\\HoneyRaesRevised\\HoneyRaesAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cviea\\workspace\\csharp\\HoneyRaesAPI\\HoneyRaesAPI.csproj",
+        "projectUniqueName": "C:\\Users\\cviea\\workspace\\csharp\\HoneyRaesRevised\\HoneyRaesAPI.csproj",
         "projectName": "HoneyRaesAPI",
-        "projectPath": "C:\\Users\\cviea\\workspace\\csharp\\HoneyRaesAPI\\HoneyRaesAPI.csproj",
+        "projectPath": "C:\\Users\\cviea\\workspace\\csharp\\HoneyRaesRevised\\HoneyRaesAPI.csproj",
         "packagesPath": "C:\\Users\\cviea\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cviea\\workspace\\csharp\\HoneyRaesAPI\\obj\\",
+        "outputPath": "C:\\Users\\cviea\\workspace\\csharp\\HoneyRaesRevised\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

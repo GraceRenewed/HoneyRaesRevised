@@ -98,10 +98,5 @@ app.MapDelete("/servicetickets/{id}", (int id) =>
     return Results.Ok();
     });
 
-app.MapDelete("/testdelete/{id}", (int id) =>
-{
-    return Results.Ok($"Delete request received for ID: {id}");
-});
-
 
 app.Run();
