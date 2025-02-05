@@ -121,4 +121,31 @@ app.MapPost("/servicetickets/{id}/complete", (int id) =>
     ticketToComplete.DateCompleted = DateTime.Today;
 });
 
+app.MapGet("/servicetickets/emergencies", () =>
+{
+    List<ServiceTicket> incompleteEmergencies = serviceTickets.Where(st => st.Emergency == true && st.DateCompleted == null).ToList();
+    if (incompleteEmergencies == null)
+    { 
+        return Results.NotFound(); 
+    }
+    else
+    {
+        return Results.Ok(incompleteEmergencies);
+    }
+    
+});
+
+app.MapGet("/servicetickets/unassigned", () =>
+{
+    List<ServiceTicket> noEmployee = serviceTickets.Where(st => st.EmployeeId == null).ToList();
+    // (!noEmployee.Any())
+    if (noEmployee == null) 
+    {
+        return Results.NotFound();
+    }
+    else{
+        return Results.Ok(noEmployee);
+    }
+});
+
 app.Run();
